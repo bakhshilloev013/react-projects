@@ -1,0 +1,13 @@
+.num {
+    font-size: 90px;
+    margin-top: 20px;
+}
+.btn {
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 20px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
