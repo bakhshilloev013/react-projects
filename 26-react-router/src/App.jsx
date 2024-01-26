@@ -12,11 +12,12 @@ function App() {
             <div className="App">
                 <Routes>
                     <Route path="/" element={<MainLayout />}>
-                        <Route index element={<Home />} />
+                        {/* У основной страницы не должно быть свойство path вместо этого обозначим его как главную страницу с помощью свойства index у которого значение true */}
+                        <Route index={true} element={<Home />} />
                         <Route path="about" element={<About />} />
                         <Route path="contacts" element={<Contacts />} />
-                        <Route path="*" element={<NotFound />} />
                     </Route>
+                        <Route path="*" element={<NotFound />} />
                 </Routes>
             </div>
         </BrowserRouter>

@@ -7,6 +7,17 @@ a {
   color: skyblue;
 }
 
+/* Used default by NavLink */
+/* .active {
+  color: lightyellow;
+  text-decoration: none;
+} */
+
+.activeLink {
+  color: lightyellow;
+  text-decoration: none;
+}
+
 nav {
   background-color: darkslategray;
   padding: 15px;
