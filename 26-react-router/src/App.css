@@ -18,6 +18,15 @@ a {
   text-decoration: none;
 }
 
+.courseLink {
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.courseLink:hover {
+  text-decoration: underline;
+}
+
 nav {
   background-color: darkslategray;
   padding: 15px;

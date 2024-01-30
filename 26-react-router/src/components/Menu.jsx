@@ -6,7 +6,7 @@ const Menu = () => {
     return (
         <nav>
             <NavLink className={changeClassName} to='.' end>Home</NavLink>
-            <NavLink className={changeClassName} to='courses' end>Courses</NavLink>
+            <NavLink className={changeClassName} to='courses'>Courses</NavLink>
             <NavLink className={changeClassName} to='about'>About</NavLink>
             <NavLink className={changeClassName} to='contacts'>Contacts</NavLink>
         </nav>
