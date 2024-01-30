@@ -4,9 +4,8 @@ import About from "./components/About";
 import Contacts from "./components/Contacts";
 import NotFound from "./components/NotFound";
 import MainLayout from "./layouts/MainLayout";
-import Courses from './components/Courses';
+import Courses from "./components/Courses";
 import "./App.css";
-import SingleCourse from "./components/SingleCourse";
 
 function App() {
     return (
@@ -16,10 +15,10 @@ function App() {
                     <Route path="/" element={<MainLayout />}>
                         {/* У основной страницы не должно быть свойство path вместо этого обозначим его как главную страницу с помощью свойства index у которого значение true */}
                         <Route index={true} element={<Home />} />
-                        <Route path="courses" element={<Courses />} />
                         <Route path="about" element={<About />} />
                         <Route path="contacts" element={<Contacts />} />
-                        <Route path="course/:slug" element={<SingleCourse />} />
+                        <Route path="courses" element={<Courses />} />
+                        <Route path="/courses/:slugs" element={<Courses />} />
                     </Route>
                         <Route path="*" element={<NotFound />} />
                 </Routes>

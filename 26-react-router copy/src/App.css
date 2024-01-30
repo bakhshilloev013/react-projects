@@ -8,10 +8,10 @@ a {
 }
 
 /* Used default by NavLink */
-.active {
+/* .active {
   color: lightyellow;
   text-decoration: none;
-}
+} */
 
 .activeLink {
   color: lightyellow;
